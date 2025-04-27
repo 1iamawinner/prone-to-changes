@@ -3,88 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R.Shriya | Aspiring Electronics Engineer</title>
-
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=The+Seasons&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Times New Roman', Times, serif;
-            background-color: #f8f8f8;
-            color: #333;
-        }
-
-        header {
-            background-color: #1e2a38; /* Dark Navy Blue */
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            font-family: 'The Seasons', serif;
-        }
-
-        main {
-            padding: 40px;
-        }
-
-        section {
-            margin-bottom: 50px;
-        }
-
-        h2 {
-            font-family: 'The Seasons', serif;
-            color: #1e2a38;
-        }
-
-        footer {
-            background-color: #7e8a97; /* Coral Grey */
-            color: #fff;
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
-        }
-    </style>
+    <title>My Skills Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
-        <h1>R.Shriya</h1>
-        <p>Aspiring Electronics Engineer | Passionate About Learning & Growing | Exploring Arduino, Sensors & Embedded Systems</p>
+        <div class="container">
+            <h1>My Skills Tracker</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome!</h2>
+                <p>A space to track and showcase my skills and experiences.</p>
+                </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
             <h2>About Me</h2>
-            <p>Welcome! I am an electronics enthusiast, deeply passionate about innovation, embedded systems, and hands-on projects. Always eager to learn and grow.</p>
-        </section>
+            <p>Brief introduction about yourself and your goals.</p>
+            </div>
+    </section>
 
-        <section id="skills">
+    <section id="skills" class="skills">
+        <div class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>Arduino Development</li>
-                <li>Embedded Systems</li>
-                <li>Sensor Integration</li>
-                <li>C, C++, Python Programming</li>
-            </ul>
-        </section>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <span class="icon">✨</span>
+                    <span>Web Development</span>
+                </div>
+                <div class="skill-item">
+                    <span class="icon">🎨</span>
+                    <span>UI/UX Design</span>
+                </div>
+                </div>
+        </div>
+    </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Details about my self-defense jacket and flexible solar sheet projects coming soon!</p>
-        </section>
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <h3>Job Title/Project Name</h3>
+                    <p class="duration">Dates</p>
+                    <p class="description">Brief description of your role and responsibilities/contributions.</p>
+                </div>
+                </div>
+        </div>
+    </section>
 
-        <section id="publications">
-            <h2>Publications</h2>
-            <p>Coming Soon: Papers and articles showcasing my research and projects.</p>
-        </section>
-    </main>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>How people can get in touch with you.</p>
+            </div>
+    </section>
 
     <footer>
-        &copy; 2025 R.Shriya | All rights reserved.
+        <div class="container">
+            <p>&copy; 2025 My Skills Tracker</p>
+        </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
