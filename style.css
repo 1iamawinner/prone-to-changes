@@ -116,6 +116,16 @@ section h2 {
     font-style: italic;
     margin-bottom: 10px;
 }
+/* ... previous styles ... */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.loaded .fade-in {
+    opacity: 1;
+}
 
 footer {
     background-color: #333;
