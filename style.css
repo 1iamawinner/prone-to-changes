@@ -215,3 +215,36 @@ footer {
         transform: translateY(0) translateX(0);
     }
 }
+/* Style for the Water Level Monitoring System project */
+.water-level-project {
+    display: flex;
+    align-items: center; /* Vertically align the text and image */
+    margin-bottom: 20px; /* Add some space below the project item */
+    padding: 15px;
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.water-level-project .project-info {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px; /* Add some space between text and image */
+}
+
+.water-level-project .project-image {
+    width: 200px; /* Adjust the width as needed */
+    border-radius: 8px; /* Optional: Match image border radius */
+    overflow: hidden; /* Ensure image doesn't exceed container */
+}
+
+.water-level-project .project-image img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space below the image */
+}
+
+/* Ensure the description uses the same font as other text */
+.water-level-project .description {
+    font-family: inherit; /* Inherit the font from the body or a parent element */
+    line-height: 1.6; /* Improve readability */
+    margin-top: 10px; /* Add some space above the description */
+}
