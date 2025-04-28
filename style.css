@@ -1,23 +1,28 @@
 
 body {
-    font-family: sans-serif;
+    background-color: #F5F5DC; /* Creamy Beige (Primary) */
+    color: #333; /* Keep your existing primary text color, adjust if needed for contrast */
+    font-family: sans-serif; /* Keep your existing font family */
     margin: 0;
     padding: 0;
-    background-color: #87CEFA; /* Setting the background color */
-    color: #333;
+    box-sizing: border-box;
 }
 
 /* ... other styles ... */
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+    background-color: #FFDAB9; /* Soft Peach (Secondary) - for your main content areas */
+    max-width: 1200px; /* Keep your existing max-width */
+    margin: 0 auto; /* Keep your existing centering */
+    padding: 20px; /* Keep or adjust your existing padding */
+    border-radius: 8px; /* Optional: Add a subtle rounded corner if you like */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Keep or adjust your existing shadow */
 }
+
 
 header {
     position: relative; /* To position the wave absolutely within the header */
-    background-color: #fff;
+    background-color: #FFDAB9;
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
     overflow: hidden; /* To hide any part of the wave that goes outside */
@@ -181,7 +186,7 @@ body.loaded .fade-in {
 
 footer {
     position: relative; /* To position the wave absolutely within the footer */
-    background-color: #333;
+    background-color: #FFDAB9;
     color: #fff;
     text-align: center;
     padding: 20px 0;
