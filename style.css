@@ -1,255 +1,126 @@
-
 body {
-    background-color: #F5F5DC; /* Creamy Beige (Primary) */
-    color: #333; /* Keep your existing primary text color, adjust if needed for contrast */
-    font-family: sans-serif; /* Keep your existing font family */
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #C2C2AB; /* Light Tan (Background) */
+    color: #333;
 }
 
-/* ... other styles ... */
-
-.container {
-    background-color: #FFDAB9; /* Soft Peach (Secondary) - for your main content areas */
-    max-width: 1200px; /* Keep your existing max-width */
-    margin: 0 auto; /* Keep your existing centering */
-    padding: 20px; /* Keep or adjust your existing padding */
-    border-radius: 8px; /* Optional: Add a subtle rounded corner if you like */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Keep or adjust your existing shadow */
+.container,
+header,
+footer,
+.skill-item,
+.project-item,
+.hero,
+.contact,
+.about {
+    background-color:#C2C2AB ; /* Medium Beige (Blocks) */
 }
 
-
-header {
-    position: relative; /* To position the wave absolutely within the header */
-    background-color: #FFDAB9;
-    padding: 20px 0;
-    border-bottom: 1px solid #ddd;
-    overflow: hidden; /* To hide any part of the wave that goes outside */
+header a,
+header h1,
+.contact h2,
+.contact p,
+footer p {
+    color: #333;
 }
 
-.wave-top-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 60px; /* Adjust as needed */
-    fill: #87CEFA; /* Match the background color */
-    transform: translateY(-100%) translateX(20%); /* Initial position off-screen */
-    animation: slideInTopRight 1s ease-out 0.5s forwards; /* Add a slight delay */
+.wave-top-right path {
+    fill: #C2C2AB;
 }
 
-.wave-top-right svg {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.wave-top-right svg path {
-    fill: inherit;
-}
-
-.about-content {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.about-text {
-    flex: 1;
-}
-
-.about-image {
-    flex: 1;
-    max-width: 300px;
+.wave-bottom-left path {
+    fill: #C2C2AB;
 }
 
 .about-image img {
-    display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-@keyframes slideInTopRight {
-    to {
-        transform: translateY(0) translateX(0);
-    }
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #555;
-}
-
-.hero {
-    background-color: #e9e9e9;
-    padding: 80px 0;
-    text-align: center;
-}
-
-.hero-content h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.hero-content p {
-    font-size: 18px;
-    color: #666;
-}
-
-section {
-    padding: 60px 0;
-}
-
-section h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.about p {
+.about-text {
     line-height: 1.6;
+    color: #333;
 }
 
-.skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    text-align: center;
+.skills h2,
+.projects h2 {
+    color: #333;
 }
 
 .skill-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .skill-item .icon {
-    font-size: 2em;
-    margin-bottom: 10px;
-    display: block;
+    margin-right: 10px;
+    font-size: 1.2em;
 }
 
-.experience-list .experience-item {
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
 }
 
-.experience-item h3 {
+.project-info h3 {
     margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-info .duration {
+    color: #777;
+    font-size: 0.9em;
     margin-bottom: 5px;
 }
 
-.experience-item .duration {
-    color: #777;
-    font-style: italic;
-    margin-bottom: 10px;
+.project-info .description {
+    color: #555;
+    line-height: 1.5;
 }
-/* ... previous styles ... */
+
+.project-item.water-level-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-item.water-level-project .project-info {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.project-item.water-level-project .project-image {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-bottom: 20px;
+    }
+
+    .project-item.water-level-project {
+        flex-direction: column;
+    }
+
+    .project-item.water-level-project .project-info {
+        padding-right: 0;
+    }
+}
 
 .fade-in {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
-body.loaded .fade-in {
+.fade-in.active {
     opacity: 1;
-}
-
-footer {
-    position: relative; /* To position the wave absolutely within the footer */
-    background-color: #FFDAB9;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
-    overflow: hidden; /* To hide any part of the wave that goes outside */
-}
-
-.wave-bottom-left {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 60px; /* Adjust as needed */
-    fill: #87CEFA; /* Match the background color */
-    transform: translateY(100%) translateX(-20%); /* Initial position off-screen */
-    animation: slideInBottomLeft 1s ease-out 0.8s forwards; /* Add a slight delay */
-}
-
-.wave-bottom-left svg {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.wave-bottom-left svg path {
-    fill: inherit;
-}
-
-@keyframes slideInBottomLeft {
-    to {
-        transform: translateY(0) translateX(0);
-    }
-}
-/* Style for the Water Level Monitoring System project */
-.water-level-project {
-    display: flex;
-    align-items: center; /* Vertically align the text and image */
-    margin-bottom: 20px; /* Add some space below the project item */
-    padding: 15px;
-    border: 1px solid #ddd; /* Optional: Add a border */
-    border-radius: 8px; /* Optional: Add rounded corners */
-}
-
-.water-level-project .project-info {
-    flex: 1; /* Take up remaining space */
-    padding-right: 20px; /* Add some space between text and image */
-}
-
-.water-level-project .project-image {
-    width: 200px; /* Adjust the width as needed */
-    border-radius: 8px; /* Optional: Match image border radius */
-    overflow: hidden; /* Ensure image doesn't exceed container */
-}
-
-.water-level-project .project-image img {
-    width: 100%; /* Make the image fill its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Prevent extra space below the image */
-}
-
-/* Ensure the description uses the same font as other text */
-.water-level-project .description {
-    font-family: inherit; /* Inherit the font from the body or a parent element */
-    line-height: 1.6; /* Improve readability */
-    margin-top: 10px; /* Add some space above the description */
 }
