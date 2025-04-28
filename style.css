@@ -263,10 +263,14 @@ footer .container p {
 }
 
 .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out; /* Added transition for background-color */
+  background-color: transparent; /* Start with a transparent background */
+  display: inline-block; /* Or adjust based on the element's nature */
+  max-width: 80%; /* Example: Limit the width to 80% of its container */
 }
 
 .fade-in.active {
-    opacity: 1;
+  opacity: 1;
+  background-color: #bd8ca4; /* Set the background color on active state */
 }
