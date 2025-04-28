@@ -1,10 +1,9 @@
-
 /* style.css */
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #cccac8; /* Light grayish background */
     color: #333;
 }
 
@@ -12,19 +11,19 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    padding: 20px 0; /* Add some vertical padding to the container */
+    padding: 20px 0;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #d1bba7; /* Light brownish block color */
+    color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid #e8491d;
+    border-bottom: 3px solid #e8491d; /* Keeping the accent color */
 }
 
 header a {
-    color: white;
+    color: #333; /* Dark text for contrast */
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -56,18 +55,17 @@ header nav li {
     padding: 0 20px;
 }
 
-/* Add margin-bottom to create space between sections */
 .hero,
 .about,
 .skills,
 .projects,
 .contact {
-    padding: 40px 0; /* Increase padding for more space within sections */
-    margin-bottom: 30px; /* Add margin at the bottom of each section */
-    background-color: #fff; /* White background for content blocks */
+    padding: 40px 0;
+    margin-bottom: 30px;
+    background-color: #d1bba7; /* Light brownish block color */
+    color: #333; /* Ensuring text is readable on the new background */
 }
 
-/* Remove background color from individual elements within sections */
 .hero .container,
 .about .container,
 .skills .container,
@@ -84,7 +82,7 @@ header nav li {
 
 .hero p {
     font-size: 1.2em;
-    color: #666;
+    color: #555;
 }
 
 .about-content {
@@ -129,14 +127,14 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Keeping a lighter background for skill items */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .skill-item .icon {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #e8491d;
+    color: #e8491d; /* Keeping the accent color */
 }
 
 .project-list {
@@ -146,7 +144,7 @@ header nav li {
 }
 
 .project-item {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -197,20 +195,20 @@ header nav li {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #d1bba7; /* Light brownish block color */
+    color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
-    position: relative; /* For the wave effect */
-    margin-top: 30px; /* Add some space above the footer */
+    position: relative;
+    margin-top: 30px;
 }
 
 .wave-top-right,
 .wave-bottom-left {
     position: absolute;
     width: 100%;
-    fill: #f4f4f4; /* Match the body background for a seamless transition */
-    color: #333; /* Ensure the path color contrasts with the fill */
+    fill: #cccac8; /* Matching the body background */
+    color: #d1bba7; /* Ensuring the path color contrasts with the fill */
 }
 
 .wave-top-right {
@@ -219,7 +217,7 @@ footer {
 }
 
 .wave-bottom-left {
-    bottom: 60px; /* Adjust to position above the footer content */
+    bottom: 60px;
     left: 0;
     transform: rotate(180deg);
 }
