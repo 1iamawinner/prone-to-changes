@@ -1,3 +1,4 @@
+/* style.css */
 body {
     font-family: sans-serif;
     margin: 0;
@@ -18,7 +19,7 @@ header {
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid #e8491d; /* Keeping the accent color */
+    border-bottom: 3px solid #694456; /* Changed orange line color */
 }
 
 header a {
@@ -61,7 +62,7 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color: #d1bba7; /* Light brownish block color */
+    background-color: #bd8ca4; /* Soft mauve color */
     color: #333; /* Ensuring text is readable on the new background */
 }
 
@@ -202,24 +203,18 @@ footer {
     margin-top: 30px;
 }
 
-/*.wave-top-right,
-.wave-bottom-left {
+.wave-top-right {
     position: absolute;
-    width: 100%;
-    fill: #cccac8; /* Matching the body background */
-    /*color: #d1bba7; /* Ensuring the path color contrasts with the fill */
-/*}*/
-
-/*.wave-top-right {
     top: -20px;
     left: 0;
-}*/
+    width: 50%; /* Make it less wider */
+    fill: #694456; /* Change the color */
+    color: #d1bba7; /* Ensuring the path color contrasts with the fill */
+}
 
-/*.wave-bottom-left {
-    bottom: 60px;
-    left: 0;
-    transform: rotate(180deg);
-}*/
+.wave-bottom-left {
+    display: none; /* Keeping it hidden as per previous instruction */
+}
 
 footer .container p {
     margin: 0;
@@ -262,10 +257,9 @@ footer .container p {
 }
 
 .fade-in {
-    opacity: 1; /* Set opacity to 1 by default, effectively removing the fade-in */
-    /* transition: opacity 0.5s ease-in-out; */ /* Remove the transition */
+    opacity: 1; /* Set opacity to 1, so it's fully visible */
 }
 
 .fade-in.active {
-    opacity: 1; /* Keep it at 1 */
+    opacity: 1; /* Keep it fully visible */
 }
