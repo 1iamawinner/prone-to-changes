@@ -1,4 +1,4 @@
-//styles 
+/* styles */
 body {
     font-family: sans-serif;
     margin: 0;
@@ -203,24 +203,24 @@ footer {
     margin-top: 30px;
 }
 
-/*.wave-top-right,
+/* 
+.wave-top-right,
 .wave-bottom-left {
     position: absolute;
     width: 100%;
     fill: #cccac8; /* Matching the body background */
-    /*color: #d1bba7; /* Ensuring the path color contrasts with the fill */
-/*}*/
-
-/*.wave-top-right {
+    /* color: #d1bba7; Ensuring the path color contrasts with the fill */
+}
+.wave-top-right {
     top: -20px;
     left: 0;
-}*/
-
-/*.wave-bottom-left {
+}
+.wave-bottom-left {
     bottom: 60px;
     left: 0;
     transform: rotate(180deg);
-}*/
+}
+*/
 
 footer .container p {
     margin: 0;
