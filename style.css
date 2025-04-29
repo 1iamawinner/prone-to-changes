@@ -18,7 +18,7 @@ header {
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid #e8491d; /* Keeping the accent color */
+    border-bottom: 3px solid #cc8d94; /* Keeping the accent color */
 }
 
 header a {
@@ -29,7 +29,7 @@ header a {
 }
 
 header a:hover {
-    color: #eba794;
+    color: #cc8d94;
     font-weight: bold;
 }
 
@@ -133,7 +133,7 @@ header nav li {
 .skill-item .icon {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #e8491d; /* Keeping the accent color */
+    color: #cc8d94; /* Keeping the accent color */
 }
 
 .project-list {
