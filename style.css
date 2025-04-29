@@ -63,7 +63,7 @@ header nav li {
 .about,
 .skills,
 .projects,
-.certificate,
+.certificates,
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
@@ -75,7 +75,7 @@ header nav li {
 .about .container,
 .skills .container,
 .projects .container,
-.certificate .container,
+.certificates .container,
 .contact .container {
     background: none;
 }
@@ -117,7 +117,8 @@ header nav li {
 
 .skills h2,
 .projects h2,
-.contact h2 {
+.contact h2 
+.certificates h2 {
     color: #333;
     margin-bottom: 20px;
     text-align: center;
