@@ -12,6 +12,10 @@ body {
     
     padding: 20px 0;
 }
+header .container {
+  overflow: visible; /* Allow content to be visible outside the container */
+}
+
 
 header {
     background-color:  #edb093; /* Light brownish block color */
