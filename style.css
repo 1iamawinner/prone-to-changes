@@ -213,25 +213,6 @@ footer {
  
 
 }
-.wave-top-right {
-     width: 100%;
-    top: -20px;
-    left: 0;
-}
-
-.wave-top-right svg {
-    height: 25px; /* Adjust this to control how tall the wave appears */
-}
-
-.wave-bottom-left {
-    bottom: 60px;
-    left: 0;
-    transform: rotate(180deg);
-}
-
-.wave-bottom-left svg {
-    height: 25px; /* Adjust this to match the wave size */
-}
 
 */
 
