@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color:  #D9B99F; /* light peach background */
+    background-color:  #d9bba7; /* light peach background */
     color: #333;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color:  #D9B99F; /* Light brownish block color */
+    background-color:  #edb093; /* Light brownish block color */
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
@@ -62,7 +62,7 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color:  #D9B99F; /* Light brownish block color */
+    background-color:  #edb093; /* Light brownish block color */
     color: #333; /* Ensuring text is readable on the new background */
 }
 
@@ -99,7 +99,7 @@ header nav li {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-   box-shadow: 0 2px 4px #edb3a6;
+   box-shadow: 0 2px 4px #edb093;
 
 }
 
@@ -128,8 +128,9 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    background-color:#D9B99F; /* Keeping a lighter background for skill items */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color:#edb093; /* Keeping a lighter background for skill items */
+    box-shadow: 0 2px 4px rgba(237, 176, 147, 0.5); /* Using the rgba equivalent of #edb093 */
+
 }
 
 .skill-item .icon {
@@ -145,10 +146,11 @@ header nav li {
 }
 
 .project-item {
-    background-color:  #D9B99F; /* Keeping a lighter background for project items */
+    background-color:  #edb093; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(237, 176, 147, 0.5); /* Using the rgba equivalent of #edb093 */
+
 }
 
 .project-info h3 {
