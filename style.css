@@ -18,7 +18,7 @@ header .container {
 
 
 header {
-    background-color: #ad6f61 ; /* Light brownish block color */
+    background-color: #874b3d ; /* Light brownish block color */
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
@@ -34,7 +34,7 @@ header a {
 }
 
 header a:hover {
-    color: #e8bebe;
+    color: #874b3d;
     font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color:  #edb093; /* Light brownish block color */
+    background-color:  #874b3d; /* Light brownish block color */
     color: #333; /* Ensuring text is readable on the new background */
 }
 
