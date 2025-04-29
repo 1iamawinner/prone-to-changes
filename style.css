@@ -29,7 +29,7 @@ header a {
 }
 
 header a:hover {
-    color: #cc8d94;
+    color: #eb7b63;
     font-weight: bold;
 }
 
@@ -195,7 +195,7 @@ header nav li {
 }
 
 footer {
-    background-color: #c79595 ; /* Light pink block color */
+    background-color: #eb7b63 ; /* Light pink block color */
     color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
