@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color:  #d9bba7; /* light peach background */
+    background-color:  #e8bebe; /* light peach background */
     color: #333;
 }
 
@@ -34,7 +34,7 @@ header a {
 }
 
 header a:hover {
-    color: #874646;
+    color: #e8bebe;
     font-weight: bold;
 }
 
@@ -103,7 +103,7 @@ header nav li {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-   box-shadow: 0 2px 4px #edb093;
+   box-shadow: 0 2px 4px #e8bebe;
 
 }
 
@@ -132,7 +132,7 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    background-color:#edb093; /* Keeping a lighter background for skill items */
+    background-color:#e8bebe; /* Keeping a lighter background for skill items */
     box-shadow: 0 2px 4px rgba(237, 176, 147, 0.5); /* Using the rgba equivalent of #edb093 */
 
 }
@@ -140,7 +140,7 @@ header nav li {
 .skill-item .icon {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #edb3a6; /* Keeping the accent color */
+    color: #e8bebe; /* Keeping the accent color */
 }
 
 .project-list {
@@ -150,7 +150,7 @@ header nav li {
 }
 
 .project-item {
-    background-color:  #edb093; /* Keeping a lighter background for project items */
+    background-color:  #e8bebe; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(237, 176, 147, 0.5); /* Using the rgba equivalent of #edb093 */
@@ -202,7 +202,7 @@ header nav li {
 }
 
 footer {
-    background-color: #874646 ; /* Light pink block color */
+    background-color: #e8bebe ; /* Light pink block color */
     color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
