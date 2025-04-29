@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color:  #D9B99F; /* Light grayish background */
+    background-color:  #D9B99F; /* light peach background */
     color: #333;
 }
 
@@ -18,7 +18,7 @@ header {
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid #cc8d94; /* Keeping the accent color */
+    border-bottom: 3px solid  #c79595 ; /* Keeping the accent color */
 }
 
 header a {
@@ -98,7 +98,8 @@ header nav li {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 2px 4px #c79595;
+
 }
 
 .about-text {
@@ -194,7 +195,7 @@ header nav li {
 }
 
 footer {
-    background-color:  #D9B99F; /* Light brownish block color */
+    background-color: #c79595 ; /* Light pink block color */
     color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
