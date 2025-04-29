@@ -18,7 +18,7 @@ header {
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid #edb3a6 ; /* Keeping the accent color */
+    border-bottom: 3px solid #ed775c ; /* Keeping the accent color */
 }
 
 header a {
@@ -29,7 +29,7 @@ header a {
 }
 
 header a:hover {
-    color: #edb3a6;
+    color: #874646;
     font-weight: bold;
 }
 
@@ -195,7 +195,7 @@ header nav li {
 }
 
 footer {
-    background-color: #edb3a6 ; /* Light pink block color */
+    background-color: #874646 ; /* Light pink block color */
     color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
