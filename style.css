@@ -18,7 +18,7 @@ header {
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid  #c79595 ; /* Keeping the accent color */
+    border-bottom: 3px solid #edb3a6 ; /* Keeping the accent color */
 }
 
 header a {
@@ -29,7 +29,7 @@ header a {
 }
 
 header a:hover {
-    color: #eb7b63;
+    color: #edb3a6;
     font-weight: bold;
 }
 
@@ -98,7 +98,7 @@ header nav li {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-   box-shadow: 0 2px 4px #c79595;
+   box-shadow: 0 2px 4px #edb3a6;
 
 }
 
@@ -134,7 +134,7 @@ header nav li {
 .skill-item .icon {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #cc8d94; /* Keeping the accent color */
+    color: #edb3a6; /* Keeping the accent color */
 }
 
 .project-list {
@@ -195,7 +195,7 @@ header nav li {
 }
 
 footer {
-    background-color: #eb7b63 ; /* Light pink block color */
+    background-color: #edb3a6 ; /* Light pink block color */
     color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
