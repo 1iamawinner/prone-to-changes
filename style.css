@@ -103,7 +103,7 @@ header nav li {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-   box-shadow: 0 2px 4px #e8bebe;
+    box-shadow: 0 2px 4px rgba(232, 190, 190, 0.5); /* Using the rgba equivalent of #e8bebe */
 
 }
 
@@ -132,8 +132,7 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    background-color:#e8bebe; /* Keeping a lighter background for skill items */
-    box-shadow: 0 2px 4px rgba(237, 176, 147, 0.5); /* Using the rgba equivalent of #edb093 */
+    box-shadow: 0 2px 4px rgba(232, 190, 190, 0.5); /* Using the rgba equivalent of #e8bebe */
 
 }
 
@@ -153,8 +152,7 @@ header nav li {
     background-color:  #e8bebe; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(237, 176, 147, 0.5); /* Using the rgba equivalent of #edb093 */
-
+    box-shadow: 0 2px 4px rgba(232, 190, 190, 0.5); /* Using the rgba equivalent of #e8bebe */
 }
 
 .project-info h3 {
