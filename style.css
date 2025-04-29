@@ -126,7 +126,7 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    background-color: #f9f9f9; /* Keeping a lighter background for skill items */
+    background-color:#D9B99F; /* Keeping a lighter background for skill items */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -202,13 +202,8 @@ footer {
     margin-top: 30px;
 }
 
-/* 
-.wave-top-right,
-.wave-bottom-left {
-    position: absolute;
-    width: 100%;
-    fill: #cccac8; /* Matching the body background */
-    /* color: #d1bba7; Ensuring the path color contrasts with the fill */
+ 
+
 }
 .wave-top-right {
     top: -20px;
