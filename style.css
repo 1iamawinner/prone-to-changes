@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #cccac8; /* Light grayish background */
+    background-color:  #D9B99F; /* Light grayish background */
     color: #333;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #d1bba7; /* Light brownish block color */
+    background-color:  #D9B99F; /* Light brownish block color */
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
@@ -61,7 +61,7 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color: #d1bba7; /* Light brownish block color */
+    background-color:  #D9B99F; /* Light brownish block color */
     color: #333; /* Ensuring text is readable on the new background */
 }
 
@@ -143,7 +143,7 @@ header nav li {
 }
 
 .project-item {
-    background-color: #f9f9f9; /* Keeping a lighter background for project items */
+    background-color:  #D9B99F; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -194,7 +194,7 @@ header nav li {
 }
 
 footer {
-    background-color: #d1bba7; /* Light brownish block color */
+    background-color:  #D9B99F; /* Light brownish block color */
     color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
